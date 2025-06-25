@@ -1,4 +1,44 @@
 /* Reset and Base */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 98, 73, 0.95);
+  height: 90px;
+  padding: 0 18px;
+  margin-bottom: 20px;
+}
+.menu .logo {
+  display: flex;
+  align-items: center;
+}
+.menu .logo img {
+  height: 75px;
+  width: auto;
+  margin-right: 20px;
+}
+.menu ul,
+.menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul {
+  width: 100%;
+  text-align: right;
+}
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+.menu a {
+  display: block;
+  padding: 0 14px;
+  line-height: 71px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +46,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     color: #1e3932;
     overflow-x: hidden;
@@ -358,25 +398,23 @@ body {
     box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
 }
 
-/* Footer */
-.footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
+footer {
+  background-color: #1e3932;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+.footer-content h3 {
+  margin-left: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 20px;
 }
-
-.footer p {
-    font-size: 0.9rem;
-    opacity: 0.8;
+.footer-content p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #d6d6d6;
 }
-
 /* Animations */
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(50px); }

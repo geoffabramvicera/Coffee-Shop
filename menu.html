@@ -2,22 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Menu | Brew Haven Coffee</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Menu | Starbucks</title>
+  <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-  <header>
-    <h1>Brew Haven Coffee</h1>
-    <p>Your daily dose of warmth and flavor</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html" class="active">Menu</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+
+  <nav class="menu">
+    <div class="logo">
+      <img src="aboutimage/starbucks.svg" alt="Starbucks Logo" />
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
+
   <main>
-    <h1 id="menu">Our Menu</h2>
+    <h1 id="menu">Our Menu</h1>
     <section>
       <h2 class="menuCategory">Brews</h2>
       <ul>
@@ -37,6 +40,7 @@
         <img src="menuItem/mocha.png" class="imgItem">
       </ul>
     </section>
+
     <section>
       <h2 class="menuCategory">Specialty Drinks</h2>
       <ul>
@@ -54,6 +58,7 @@
         <img src="menuItem/chai latte.jpg" class="imgItem">
       </ul>
     </section>
+
     <section>
       <h2 class="menuCategory">Frappes</h2>
       <ul>
@@ -70,6 +75,7 @@
         <li>Macha Chocolate - PHP139</li>
       </ul>
     </section>
+
     <section>
       <h2 class="menuCategory">Pastries & Desserts</h2>
       <ul>
@@ -94,8 +100,13 @@
       </ul>
     </section>
   </main>
+
   <footer>
-    &copy; 2025 Brew Haven Coffee. All rights reserved.
-  </footer>
+    <div class="footer-content">
+      <h3>STARBUCKS</h3>
+      <p>Imus City, Cavite, Philippines</p>
+      <p>Email: <a href="mailto:hello@brewhaven.com">hello@not-Starbucks.com</a></p>
+      <p>Phone: <a href="tel:+15551234567">0991-469-1405</a></p>
+    </div>
 </body>
 </html>

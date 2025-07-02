@@ -33,8 +33,11 @@ a {
 a:hover {
   color: var(--secondary-green);
 }
-
-
+.logo img {
+  height: 75px;
+  width: auto;
+  border-radius: 50%;
+}
 .menu {
   display: flex;
   align-items: center;

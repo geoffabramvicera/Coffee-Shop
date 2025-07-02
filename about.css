@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #528035;
+  background-color: rgba(0, 98, 73, 0.95);
   height: 90px;
   padding: 0 18px;
   margin-bottom: 20px;
@@ -14,7 +14,7 @@
 .menu .logo img {
   height: 75px;
   width: auto;
-  margin-right: 20px;
+  border-radius: 50%;
 }
 .menu ul,
 .menu li {
@@ -247,4 +247,3 @@ footer {
   color: #444;
   line-height: 1.8;
 }
-

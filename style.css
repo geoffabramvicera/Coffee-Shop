@@ -24,7 +24,7 @@ body {
 
 main {
   flex: 1;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 2rem auto;
   background: var(--white);
   border-radius: 12px;
@@ -49,6 +49,22 @@ footer {
 
 /* menu */
 
+.logo img{
+  height: 75px;
+  width: auto;
+  border-radius: 50%;
+}
+
+section {
+  box-align: center;
+}
+  
+main li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -70,11 +86,12 @@ li {
 }
 
 .imgItem {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
-  margin-left: 100px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 15%;
 }
 
 
@@ -137,6 +154,11 @@ li {
   letter-spacing: 20px;
 }
 
+.footer-content p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #d6d6d6;
+}
 .footer-content p {
   margin: 8px 0;
   font-size: 15px;

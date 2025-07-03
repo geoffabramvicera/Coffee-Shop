@@ -32,27 +32,47 @@ body {
     align-items: center;
     padding: 0 2rem;
 }
-
-.logo {
-    display: flex;
-    align-items: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-    transition: transform 0.3s ease;
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 98, 73, 0.95);
+  height: 90px;
+  padding: 0 18px;
+  margin-bottom: 20px;
 }
-
+.menu .logo {
+  display: flex;
+  align-items: center;
+}
+.menu .logo img {
+  height: 75px;
+  width: auto;
+  border-radius: 50%;
+}
+.menu ul,
+.menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul {
+  width: 100%;
+  text-align: right;
+}
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+.menu a {
+  display: block;
+  padding: 0 14px;
+  line-height: 71px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
 .logo:hover { transform: scale(1.05); }
-
-.logo-image {
-    width: 40px;
-    height: 40px;
-    margin-right: 12px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .nav-menu {
     display: flex;
